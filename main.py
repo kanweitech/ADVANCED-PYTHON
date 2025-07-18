@@ -18,4 +18,20 @@ def get_sample_stock_data():
     {"day":"Wednesday", "price":145},
     #Add more sample stock data
   ]
+
+
+def streaming_log_processing():
+    
+    log_data = get_sample_log_data()
+
+    #use lambda functions to format log message
+    format_log = lambda log: f"[{log['timestamp']}]:{log['message']}"
+
+    #formatting and printing each log message
+    formatted_logs = [format_log(log) for log in log_data]
+    return formatted_logs
+
+#running the stream log processing and printing the results
+formatted_logs = streaming_log_processing()
+formatted_logs
    
