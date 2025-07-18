@@ -1,4 +1,4 @@
-
+![image](Screenshot_20250718-124059.jpg)
 
 # ADVANCED-PYTHON-FUNDAMENTALS-2025
 Clean python code that demonstrates the use of lambda functions in practical scenarios like
